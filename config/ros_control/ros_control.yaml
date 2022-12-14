@@ -1,0 +1,34 @@
+"":
+  joint_states_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+
+  joint_group_position_controller:
+      type: effort_controllers/JointTrajectoryController
+      joints:
+          - fl1
+          - fl2
+          - fl3
+          - fr1
+          - fr2
+          - fr3
+          - bl1
+          - bl2
+          - bl3
+          - br1
+          - br2
+          - br3
+
+      gains:
+        fl1 : {p: 180, d: 0.9, i: 20}
+        fl2 : {p: 180, d: 0.9, i: 20}
+        fl3 : {p: 180, d: 0.9, i: 20}
+        fr1 : {p: 180, d: 0.9, i: 20}
+        fr2 : {p: 180, d: 0.9, i: 20}
+        fr3 : {p: 180, d: 0.9, i: 20}
+        bl1 : {p: 180, d: 0.9, i: 20}
+        bl2 : {p: 180, d: 0.9, i: 20}
+        bl3 : {p: 180, d: 0.9, i: 20}
+        br1 : {p: 180, d: 0.9, i: 20}
+        br2 : {p: 180, d: 0.9, i: 20}
+        br3 : {p: 180, d: 0.9, i: 20}

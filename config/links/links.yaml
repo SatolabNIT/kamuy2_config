@@ -1,0 +1,24 @@
+base: base_link
+left_front:
+  - front_left_link_first
+  - front_left_link_second
+  - front_left_link_foot
+  - front_left_foot
+
+right_front:
+  - front_right_link_first
+  - front_right_link_second
+  - front_right_link_foot
+  - front_right_foot
+
+left_hind:
+  - back_left_link_first
+  - back_left_link_second
+  - back_left_link_foot
+  - back_left_foot
+
+right_hind:
+  - back_right_link_first
+  - back_right_link_second
+  - back_right_link_foot
+  - back_right_foot

@@ -1,0 +1,23 @@
+left_front:
+  - fl1
+  - fl2
+  - fl3
+  - fl4
+
+right_front:
+  - fr1
+  - fr2
+  - fr3
+  - fr4
+
+left_hind:
+  - bl1
+  - bl2
+  - bl3
+  - bl4
+
+right_hind:
+  - br1
+  - br2
+  - br3
+  - br4
